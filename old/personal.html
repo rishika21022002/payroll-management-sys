@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <script src="personal.js"></script>
+    </head>
+        <body>
+            <header class="main-header">
+                <nav class="nav main-nav">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="personal.html">EMPLYEE PERSONAL DATA</a></li>
+                        <li><a href="wages.html"> WAGES</a></li>
+                        <li><a href="report.html"> REPORT</a></li>
+                        <li><a href="salary_slip.html">SALARY SLIP</a>  </li>
+                        <li><a href="leave.html">LEAVE</a> </li>
+                    </ul>
+    
+                </nav>
+                <h1 class="topic"> EMPLOYEE INFORMATION</h1>
+            </header>
+            <br>
+            <br>
+            
+            <section class="content-section container">
+            <div class="e-row">
+                <h3> EMPLOYEE ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=text></h3>
+        
+
+                <h3>NAME:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=text></h3>
+                 
+                <h3> GENDER:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type=radio name=r1 onmouseover="myFunction1()">male<input
+                  type=radio name=r2 onmouseover="myFunction2()">female</h3>
+                  
+         
+                  <h3> ADDRESS:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <textarea name=tr cols=22 rows=5 onmouseover="myFunction3()"></textarea></h3>
+                 
+         
+                 <h3> CITY :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type=text>
+                 </h3>
+                 
+                 <h3> STATE :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=text>
+                 </h3>
+         
+                 <h3> PAN NO.:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=text>
+                 </h3>
+         
+                 <h3>ADHAR NO.:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=text></h3>
+         
+                 
+                 <h3>PF NO.:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=text>
+                 </h3>
+         
+                 <H3>ESIC NO.:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=text></H3>
+                 
+                
+            </div>
+            <br><br>
+        </section>
+        <button  onclick="alert('NEW EMPLOYEE ADDED')" id="add_emp">ADD EMPLOYEE</button>
+        <button onclick="del()">DELETE EMPLOYEE</button>
+        <button onclick="add()" id="add_emp" >SHOW EMPLOYEE</button>
+        </body>
+    </head>
+</html>
